@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}#about {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+#about > div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#about img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#about p {
+    margin-bottom: 10px;
+}
+
+#about a {
+    display: inline-block;
+    background-color: #1e3a8a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+#about a:hover {
+    background-color: #2563eb;
+}
+
+#Skills {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+#Skills h2 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+#Skills > p {
+    margin-bottom: 25px;
+}
+
+#Skills > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#Skills > div > div {
+    flex: 1;
+    padding: 15px;
+}
+
+#Skills h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+#Skills > div p {
+    color: #555;
+    font-size: 14px;
+}
+#experience {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+#experience h2 {
+    color: #1e3a8a;
+    margin-bottom: 25px;
+}
+
+.experience-item {
+    border-left: 3px solid #2563eb;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+.experience-item h3 {
+    color: #1e3a8a;
+    margin-bottom: 8px;
+}
+
+.experience-item p {
+    color: #555;
+    margin-bottom: 8px;
+}
+#Contact {
+    background-color: #2563eb;
+    color: white;
+    padding: 30px 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+#Contact h2 {
+    margin-bottom: 15px;
+}
+
+#Contact p {
+    margin-bottom: 15px;
+}
+
+#Contact a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#Contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
